@@ -30,3 +30,29 @@ Part 1 :
 
 
 
+Part 2 :
+
+- messagebox.showinfo()		    ~> Berfungsi untuk menampilkan messagebox.
+- messagebox.showinfo("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.showerror()        ~> Berfungsi untuk menampilkan error messagebox.
+- messagebox.showerror("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.showwarning()	~> Berfungsi untuk menampilkan warning messagebox.
+- messagebox.showwarning("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.askquestion()	~> Berfungsi untuk menampilkan yes-no question. Akan mereturn string "yes" dan "no".
+- messagebox.askquestion("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.askokcancel()	~> Berfungsi untuk menampilkan ok-cancel question. Akan mereturn int 1 untuk tombol ok dan int 0 untuk tombol cancel.
+- messagebox.askokcancel("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.askretrycancel()	~> Berfungsi untuk menampilkan retry-cancel question. Akan mereturn int 1 untuk tombol retry dan int 0 untuk tombol cancel.
+- messagebox.askretrycancel("<nama window messagebox>", "<isi messagebox>")
+
+- messagebox.askyesno()	        ~> Berfungsi untuk menampilkan yes-no question. Akan mereturn int 1 untuk tombol yes dan int 0 untuk tombol no.
+- messagebox.askyesno("<nama window messagebox>", "<isi messagebox>")
+
+
+
+
