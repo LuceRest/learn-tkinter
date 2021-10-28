@@ -1,0 +1,27 @@
+- Tk().config(background="<warna>")	
+    ~> Berfungsi untuk mengubah warna background.
+
+- <variabel label> = Label(text="<isi teks>", font="<style font> <ukuran font>, background="<warna>")
+    ~> Berfungsi untuk membuat label.
+
+- .pack()	~> Berfungsi untuk menaruh label pada window.
+- <variabel label>.pack()
+
+- .grid()	~> Berfungsi untuk menaruh label pada window dengan menggunakan grid system.
+- <variabel label>.grid(row=<letak baris [int]>, column=<letak kolom [int]>, columnspan=<kolom yg ingin digabung>)
+    - columnspan	-> Menggabungkan beberapa kolom.
+
+- Entry()	~> Berfungsi untuk menginputkan suatu data dalam satu baris.
+- <variabel entry> = Entry(font="<style font> <ukuran font", bd=<nilai border>)
+    - bd	-> Border.
+
+- Button()	~> Berfungsi untuk membuat suatu button.
+- <variabel button> = Button(text="<isi teks>", font="<style font> <ukuran font>", activebackground="<warna>", command=<nama fungsi>)
+    - activebackground	-> Efek background ketika diklik.
+    - command		-> Fungsi yg akan dijalankan ketika tombol diklik.
+
+- .get()	~> Berfungsi untuk mengambil nilai dari suatu input Entry().
+- <variabel entry>.get()
+
+- Text()	~> Berfungsi untuk menginputkan suatu teks.
+- <variabel teks> = Text(width=<lebar teks>, height=<tinggi teks>, bd=<border>, font="<style font> <ukuran font>")
