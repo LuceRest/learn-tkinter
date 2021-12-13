@@ -1,0 +1,3 @@
+- askcolor()	~> Berfungsi untuk mengambil suatu warna dengan gui.
+- <variabel hasil> = askcolor(title="<judul header">)
+- RGB, HEX = <variabel hasil>
